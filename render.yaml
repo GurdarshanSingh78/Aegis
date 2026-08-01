@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: aegis
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
