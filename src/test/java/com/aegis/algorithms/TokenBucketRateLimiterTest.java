@@ -37,7 +37,13 @@ class TokenBucketRateLimiterTest {
 
     @Test
     void neverExceedsCapacityEvenAfterLongIdlePeriod() throws InterruptedException {
-        TokenBucketRateLimiter limiter = new TokenBucketRateLimiter(3, 1000);
+        // A slow refill rate keeps this test robust on a real machine: at
+        // 1000 tokens/sec (1 token/ms), the acquire loop below only needs
+        // to take just over 1ms of wall-clock time -- entirely plausible
+        // under normal OS scheduling -- to accumulate an extra token
+        // mid-loop and make this test flaky. At 1 token/sec, the loop would
+        // need to run for over a second to do that.
+        TokenBucketRateLimiter limiter = new TokenBucketRateLimiter(3, 1);
 
         Thread.sleep(50); // plenty of time to "overflow" past capacity if refill were unbounded
 
