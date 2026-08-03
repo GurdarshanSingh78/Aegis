@@ -8,7 +8,6 @@
 
 **[🔴 Live demo]([https://your-app.onrender.com](https://aegis-mtjq.onrender.com/))** — click *Start burst* and watch the rate limiter shed traffic and the circuit breaker trip in real time.
 
-![Aegis dashboard](docs/dashboard.png)
 
 ## What it is
 
