@@ -2,7 +2,7 @@
 
 **Adaptive rate limiting & resilience gateway for the JVM — built from scratch, not `import`ed.**
 
-[![CI](https://github.com/<your-username>/aegis/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/aegis/actions)
+[![CI](https://github.com/GurdarshanSingh78/aegis/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/aegis/actions)
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![Zero web framework](https://img.shields.io/badge/dependencies-JDK%20only-informational)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
