@@ -6,7 +6,7 @@
 ![Zero web framework](https://img.shields.io/badge/dependencies-JDK%20only-informational)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**[🔴 Live demo]([https://your-app.onrender.com](https://aegis-mtjq.onrender.com/))** — click *Start burst* and watch the rate limiter shed traffic and the circuit breaker trip in real time.
+**[🔴 Live demo][https://your-app.onrender.com](https://aegis-mtjq.onrender.com/)** — click *Start burst* and watch the rate limiter shed traffic and the circuit breaker trip in real time.
 
 
 ## What it is
